@@ -1,0 +1,27 @@
+{
+  "name": "dark-souls-guidebook",
+  "version": "0.1.0",
+  "description": "Dark Souls Guidebook",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valsaven/dark-souls-guidebook.git"
+  },
+  "author": "Val Saven <val.saven@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valsaven/dark-souls-guidebook/issues"
+  },
+  "homepage": "https://github.com/valsaven/dark-souls-guidebook#readme",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-router": "^3.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^0.8.4"
+  }
+}
