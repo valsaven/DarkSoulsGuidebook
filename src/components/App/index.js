@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './style.css';
 
 // Images
 // FIXME: Fix images paths
@@ -19,7 +19,7 @@ function ContentItems() {
     { title: 'ARMOR', img: Armor, alt: 'armor' },
     { title: 'MAGIC', img: Spells, alt: 'magic' },
     { title: 'ITEMS', img: Items, alt: 'items' },
-    { title: 'ONLINE PLAY', img: Soapstone, alt: 'onlinePlay' },
+    { title: 'ONLINE PLAY', img: Soapstone, alt: 'online' },
     { title: 'STATS', img: Stats, alt: 'stats' },
     { title: 'LOCATIONS', img: Locations, alt: 'locations' }
   ];
