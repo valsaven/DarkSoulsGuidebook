@@ -1,0 +1,24 @@
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.App-content {
+  text-align: center;
+}
+
+.container {
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.content-item {
+  border: 4px solid #424242;
+  height: 8em;
+  margin: 0.5em;
+  width: 8em;
+}
