@@ -8,17 +8,3 @@
   height: 40px;
   padding: 20px;
 }
-
-.App-content {
-  border: 5px solid black;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.content-item {
-  border: 4px solid #424242;
-  height: 8em;
-  margin: 0.5em;
-  width: 8em;
-}
