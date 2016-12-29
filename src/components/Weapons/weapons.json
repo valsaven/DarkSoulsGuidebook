@@ -1,0 +1,90 @@
+[
+  {
+    "title": "AXES",
+    "items": [
+      "Axes",
+      "Greataxes"
+    ]
+  },
+  {
+    "title": "HAMMERS",
+    "items": [
+      "Hammers",
+      "Great Hammers"
+    ]
+  },
+  {
+    "title": "POLEARMS",
+    "items": [
+      "Spears",
+      "Halberds"
+    ]
+  },
+  {
+    "title": "RANGED",
+    "items": [
+      "Bows",
+      "Crossbows"
+    ]
+  },
+  {
+    "title": "SWORDS",
+    "items": [
+      "Straight Swords",
+      "Greatswords",
+      "Ultra Greatswords",
+      "Curved Swords",
+      "Curved Greatswords",
+      "Thrusting Swords",
+      "Katanas"
+    ]
+  },
+  {
+    "title": "OTHER MELEE",
+    "items": [
+      " Daggers",
+      "Gauntlets",
+      "Whips",
+      "Skull Lantern"
+    ]
+  },
+  {
+    "title": "CASTING INSTRUMENTS",
+    "items": [
+      "Catalysts",
+      "Talismans",
+      "Pyromancy Flame"
+    ]
+  },
+  {
+    "title": "SHIELDS",
+    "items": [
+      "Small Shields",
+      "Medium Shields",
+      "Greatshields"
+    ]
+  },
+  {
+    "title": "MODIFICATION",
+    "items": [
+      "Weapon Modification"
+    ]
+  },
+  {
+    "title": "UPGRADE PATHS",
+    "items": [
+      "Standard",
+      "Raw",
+      "Crystal",
+      "Magic",
+      "Enchanted",
+      "Divine",
+      "Occult",
+      "Fire",
+      "Chaos",
+      "Lightning",
+      "Unique",
+      "Dragon"
+    ]
+  }
+]
