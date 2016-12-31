@@ -1,0 +1,47 @@
+[
+  {
+    "title": "LORDRAN",
+    "items": [
+      "Firelink Shrine",
+      "Undead Burg",
+      "Undead Parish",
+      "Depths",
+      "Blighttown",
+      "Quelaag's Domain",
+      "The Great Hollow",
+      "Ash Lake",
+      "Sen's Fortress",
+      "Anor Londo",
+      "Painted World of Ariamis",
+      "Darkroot Garden",
+      "Darkroot Basin",
+      "Valley of Drakes",
+      "The Catacombs",
+      "Tomb of the Giants",
+      "New Londo Ruins",
+      "The Duke's Archives",
+      "Crystal Cave",
+      "Demon Ruins",
+      "Lost Izalith",
+      "Firelink Altar",
+      "Kiln of the First Flame"
+    ]
+  },
+  {
+    "title": "OOLACILE",
+    "items": [
+      "Sanctuary Garden",
+      "Oolacile Sanctuary",
+      "Royal Wood",
+      "Oolacile Township",
+      "Oolacile Township Dungeon",
+      "Chasm of the Abyss"
+    ]
+  },
+  {
+    "title": "OTHER",
+    "items": [
+      "Northern Undead Asylum"
+    ]
+  }
+]
