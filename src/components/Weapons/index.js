@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import weapons from './weapons.json';
 import './style.css';
 
-function WeaponsItems() {
-  const weaponsItems = weapons.map((item) =>
+function WeaponsMenu() {
+  const Weapons = weapons.map((item) =>
     <div className="content-item">
       <p>{item.title}</p>
       <ul>
@@ -12,14 +12,14 @@ function WeaponsItems() {
     </div>
   );
   return (
-    <div className="container">{weaponsItems}</div>
+    <div className="container">{Weapons}</div>
   );
 }
 
 class Weapons extends Component {
   render() {
     return (
-      <WeaponsItems/>
+      <WeaponsMenu/>
     )
   }
 }
