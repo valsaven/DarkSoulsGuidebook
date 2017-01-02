@@ -7,11 +7,11 @@ class App extends Component {
     return (
       <div className="App">
         <Link to="/">
-          <div className="App-header">
+          <header>
             <h1>Dark Souls Guidebook</h1>
-          </div>
+          </header>
         </Link>
-        <div className="App-content">
+        <div>
           {this.props.children}
         </div>
       </div>

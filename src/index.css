@@ -1,8 +1,62 @@
-body, p {
+/* Preparations */
+body, h1, p {
   margin: 0;
   padding: 0;
 }
 
-h1 {
-  margin: 0;
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+/* General styles */
+.App {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+header {
+  background-color: #212121;
+  color: white;
+  padding: 20px;
+}
+
+.App-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 100px 40px;
+  width: 100%;
+}
+
+/* Main Block */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #303030;
+  color: #FFF;
+  text-align: center;
+}
+
+.App-content {
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.content-item {
+  background-color: #424242;
+  border-radius: 4px;
+  color: #FFFFFF;
+  margin: 10px;
+  padding: 8px;
+  position: relative;
+  text-align: center;
 }
