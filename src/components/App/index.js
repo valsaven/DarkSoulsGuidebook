@@ -11,9 +11,7 @@ class App extends Component {
             <h1>Dark Souls Guidebook</h1>
           </header>
         </Link>
-        <div>
-          {this.props.children}
-        </div>
+        {this.props.children}
       </div>
     );
   }
