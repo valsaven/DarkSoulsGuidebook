@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router';
-import './style.css';
+import React, {Component} from 'react';
+import {Link} from 'react-router';
 
 // Images
-// FIXME: Fix images paths
 import Solaire from './images/Icons/Solaire.png';
 import Weapons from './images/Icons/Weapons.png';
 import Armor from './images/Icons/Armor.png';
@@ -32,8 +30,9 @@ function ContentItems() {
       </div>
     </Link>
   );
+
   return (
-    <div className="container">{listItems}</div>
+    <div className="App-content">{listItems}</div>
   );
 }
 
