@@ -71,6 +71,8 @@ body {
 
 /* Elements */
 ul {
+  display: inline-block;
+  min-width: 300px;
   text-align: left;
 }
 
