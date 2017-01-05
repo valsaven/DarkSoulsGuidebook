@@ -12,6 +12,14 @@ a:visited {
   color: inherit;
 }
 
+li {
+  list-style-type: none;
+}
+
+p {
+  text-shadow: 0 0 0.2em #fff;
+}
+
 /* General styles */
 .App {
   height: 100%;
@@ -59,4 +67,19 @@ body {
   padding: 8px;
   position: relative;
   text-align: center;
+}
+
+/* Elements */
+ul {
+  text-align: left;
+}
+
+li:before {
+  color: #D5D4D4;
+  content: "•";
+  padding-right: 10px;
+}
+
+.content-item > ul > li {
+  color: #4C93D4;
 }
