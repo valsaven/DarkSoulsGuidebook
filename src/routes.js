@@ -12,6 +12,11 @@ import Online from './components/Online';
 import Stats from './components/Stats';
 import Weapons from './components/Weapons';
 
+// Magic
+import Miracles from './components/Magic/components/Miracles';
+import Pyromancy from './components/Magic/components/Pyromancy';
+import Sorcery from './components/Magic/components/Sorcery';
+
 import NotFoundPage from './components/NotFoundPage';
 
 export default (
@@ -21,6 +26,9 @@ export default (
     <Route path="weapons" component={Weapons}/>
     <Route path="armor" component={Armor}/>
     <Route path="magic" component={Magic}/>
+    <Route path="magic/miracles" component={Miracles}/>
+    <Route path="magic/pyromancy" component={Pyromancy}/>
+    <Route path="magic/sorcery" component={Sorcery}/>
     <Route path="items" component={Items}/>
     <Route path="online" component={Online}/>
     <Route path="stats" component={Stats}/>
