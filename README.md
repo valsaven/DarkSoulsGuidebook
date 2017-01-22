@@ -1,5 +1,5 @@
 # Dark Souls Guidebook
-### Site:
+### Site
 http://darksouls.bplaced.net/
 
 ### Stack
