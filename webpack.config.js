@@ -1,5 +1,6 @@
 const { resolve } = require('path');
 const webpack = require('webpack');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: [
@@ -77,5 +78,13 @@ module.exports = {
 
     // prints more readable module names in the browser console on HMR updates
     new webpack.NamedModulesPlugin(),
+
+    // copy index.html to dist
+    new CopyWebpackPlugin([
+      {
+        from: resolve(__dirname, 'public'),
+        to: resolve(__dirname, 'dist')
+      }
+    ])
   ]
 };
