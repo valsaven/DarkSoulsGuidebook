@@ -6,10 +6,9 @@ body, h1, p {
 
 a {
   text-decoration: none;
-}
-
-a:visited {
-  color: inherit;
+  &:visited {
+    color: inherit;
+  }
 }
 
 li {
@@ -44,8 +43,11 @@ header {
 }
 
 /* Main Block */
-*, *:before, *:after {
+* {
   box-sizing: border-box;
+  &:before, &:after {
+    box-sizing: border-box;
+  }
 }
 
 body {
