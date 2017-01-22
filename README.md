@@ -16,6 +16,7 @@ http://darksouls.bplaced.net/
 ```
 $ yarn
 $ yarn start      # for dev
+$ yarn build      # for build
 ```
 
 ### License

@@ -1,8 +1,9 @@
 {
   "name": "dark-souls-guidebook",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Dark Souls Guidebook",
   "scripts": {
+    "build": "rimraf dist && webpack --bail --progress --profile",
     "server": "webpack-dev-server --history-api-fallback --progress --colors",
     "start": "npm run server"
   },
