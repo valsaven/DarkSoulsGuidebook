@@ -3,20 +3,18 @@
 http://darksouls.bplaced.net/
 
 ### Stack
-- React + React Router + React Hot Loader 3
-- Redux
-- Webpack 2
+- Vue + Vue-router
+- Webpack 3
 - SASS
 
 ### Requirements
-- Node v7.4.0
-- yarn
+- Node v8.4.0
 
 ### Getting started
 ```
-$ yarn
-$ yarn start      # for dev
-$ yarn build      # for build
+$ npm i
+$ npm dev    # for dev
+$ npm build  # for build
 ```
 
 ### License
