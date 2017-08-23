@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import armor from './armor.json';
+import armor from '../../data/armor.json';
 
 function ArmorMenu() {
   const Armor = armor.map((item) =>
