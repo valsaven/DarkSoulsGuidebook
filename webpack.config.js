@@ -1,58 +1,32 @@
 const { resolve } = require('path');
+const path = require('path');
 const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  entry: [
-    // activate HMR for React
-    'react-hot-loader/patch',
-
-    // bundle the client for webpack-dev-server
-    // and connect to the provided endpoint
-    'webpack-dev-server/client?http://localhost:3000',
-
-    // bundle the client for hot reloading
-    // only- means to only hot reload for successful updates
-    'webpack/hot/only-dev-server',
-
-    // the entry point of our app
-    './index.js'
-  ],
+  entry: './index.js',
   output: {
-    // the output bundle
-    filename: 'bundle.js',
-
-    path: resolve(__dirname, 'dist'),
-
-    // necessary for HMR to know where to load the hot update chunks
-    publicPath: '/'
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: '/',
+    filename: 'bundle.js'
   },
 
   context: resolve(__dirname, 'src'),
 
-  devtool: 'inline-source-map',
-
-  devServer: {
-    // enable HMR on the server
-    hot: true,
-
-    // match the output path
-    contentBase: resolve(__dirname, 'dist'),
-
-    // match the output `publicPath`
-    publicPath: '/',
-
-    // set port
-    port: 3000
-  },
-
   module: {
     rules: [
       {
+        test: /\.vue$/,
+        loader: 'vue-loader',
+        options: {
+          loaders: {
+          }
+          // other vue-loader options go here
+        }
+      },
+      {
         test: /\.js$/,
-        use: [
-          'babel-loader',
-        ],
+        loader: 'babel-loader',
         exclude: /node_modules/
       },
       {
@@ -67,19 +41,44 @@ module.exports = {
         test: /\.scss$/,
         loaders: ["style-loader", "css-loader", "sass-loader"]
       },
+
       {
         test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$/,
         use: [
           'file-loader'
         ]
       }
-    ],
+    ]
   },
 
-  plugins: [
-    // enable HMR globally
-    new webpack.HotModuleReplacementPlugin(),
+  resolve: {
+    alias: {
+      'vue$': 'vue/dist/vue.esm.js'
+    }
+  },
+  devServer: {
+    historyApiFallback: true,
+    noInfo: true,
+    // enable HMR on the server
+    hot: true,
 
+    // match the output path
+    contentBase: resolve(__dirname, 'dist'),
+
+    // match the output `publicPath`
+    publicPath: '/',
+
+    // set port
+    port: 3000
+  },
+
+  performance: {
+    hints: false
+  },
+
+  devtool: '#eval-source-map',
+
+  plugins: [
     // prints more readable module names in the browser console on HMR updates
     new webpack.NamedModulesPlugin(),
 
@@ -90,5 +89,27 @@ module.exports = {
         to: resolve(__dirname, 'dist')
       }
     ])
-  ]
+  ],
 };
+
+if (process.env.NODE_ENV === 'production') {
+  module.exports.devtool = '#source-map';
+
+  // http://vue-loader.vuejs.org/en/workflow/production.html
+  module.exports.plugins = (module.exports.plugins || []).concat([
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: '"production"'
+      }
+    }),
+    new webpack.optimize.UglifyJsPlugin({
+      sourceMap: true,
+      compress: {
+        warnings: false
+      }
+    }),
+    new webpack.LoaderOptionsPlugin({
+      minimize: true
+    })
+  ]);
+}
