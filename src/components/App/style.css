@@ -1,0 +1,94 @@
+/* Preparations */
+body,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    text-shadow: 0 0 .2em #fff;
+}
+
+/* General styles */
+.App {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+header {
+    background-color: #212121;
+    color: white;
+    padding: 20px;
+}
+
+.main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 100px 40px;
+    width: 100%;
+}
+
+/* Main Block */
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #303030;
+    color: #fff;
+    text-align: center;
+}
+
+.main-menu {
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.content-item {
+    background-color: #424242;
+    border-radius: 4px;
+    color: #fff;
+    margin: 10px;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+}
+
+/* Elements */
+ul {
+    display: inline-block;
+    min-width: 300px;
+    text-align: left;
+}
+
+li::before {
+    color: #d5d4d4;
+    content: "•";
+    padding-right: 10px;
+}
+
+.content-item > ul > li {
+    color: #4c93d4;
+}

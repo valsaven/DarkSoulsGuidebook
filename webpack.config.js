@@ -10,18 +10,14 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
-
   context: resolve(__dirname, 'src'),
-
   module: {
     rules: [
       {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: {
-          loaders: {
-          }
-          // other vue-loader options go here
+          loaders: {}
         }
       },
       {
@@ -39,14 +35,16 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        loaders: ["style-loader", "css-loader", "sass-loader"]
+        loaders: [
+          "style-loader",
+          "css-loader",
+          "sass-loader",
+        ]
       },
 
       {
         test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$/,
-        use: [
-          'file-loader'
-        ]
+        loader: 'file-loader',
       }
     ]
   },
@@ -59,30 +57,17 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     noInfo: true,
-    // enable HMR on the server
     hot: true,
-
-    // match the output path
     contentBase: resolve(__dirname, 'dist'),
-
-    // match the output `publicPath`
     publicPath: '/',
-
-    // set port
     port: 3000
   },
-
   performance: {
     hints: false
   },
-
   devtool: '#eval-source-map',
-
   plugins: [
-    // prints more readable module names in the browser console on HMR updates
     new webpack.NamedModulesPlugin(),
-
-    // copy index.html to dist
     new CopyWebpackPlugin([
       {
         from: resolve(__dirname, 'public'),
