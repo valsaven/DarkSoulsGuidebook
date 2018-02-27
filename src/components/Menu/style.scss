@@ -19,7 +19,7 @@ li {
 }
 
 p {
-  text-shadow: 0 0 .2em #fff;
+  text-shadow: 0 0 0.2em #fff;
 }
 
 /* General styles */
@@ -85,7 +85,7 @@ ul {
 
 li::before {
   color: #d5d4d4;
-  content: "•";
+  content: '•';
   padding-right: 10px;
 }
 

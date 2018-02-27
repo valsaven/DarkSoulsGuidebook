@@ -6,9 +6,7 @@
 export default {
   name: 'MenuItem',
   data() {
-    return {
-
-    };
+    return {};
   },
 };
 </script>
