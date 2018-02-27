@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <div class="header">
+      <h1>Dark Souls Guidebook</h1>
+    </div>
     <router-view/>
   </div>
 </template>
@@ -18,5 +21,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.header {
+  background-color: #212121;
+  color: white;
+  padding: 20px;
 }
 </style>
