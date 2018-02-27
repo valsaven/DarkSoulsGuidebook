@@ -1,0 +1,61 @@
+[
+  {
+    "title": "SELF AUGMENTING",
+    "items": [
+      "Chameleon",
+      "Fall Control",
+      "Hidden Body",
+      "Hush"
+    ]
+  },
+  {
+    "title": "WEAPON AUGMENTING",
+    "items": [
+      "Magic Weapon",
+      "Great Magic Weapon",
+      "Crystal Magic Weapon",
+      "Magic Shield"
+    ]
+  },
+  {
+    "title": "OFFENSIVE",
+    "items": [
+      "Strong Magic Shield",
+      "Hidden Weapon",
+      "Soul Arrow",
+      "Heavy Soul Arrow",
+      "Great Soul Arrow",
+      "Great Heavy Soul Arrow",
+      "Soul Spear",
+      "Crystal Soul Spear",
+      "Homing Soulmass",
+      "Homing Crystal Soulmass",
+      "White Dragon Breath",
+      "Dark Bead",
+      "Dark Fog",
+      "Dark Orb",
+      "Pursuers"
+    ]
+  },
+  {
+    "title": "RESTORATIVE",
+    "items": [
+      "Remedy",
+      "Repair",
+      "Resist Curse"
+    ]
+  },
+  {
+    "title": "OTHER",
+    "items": [
+      "Aural Decoy",
+      "Cast Light"
+    ]
+  },
+  {
+    "title": "CASTING INSTRUMENTS",
+    "items": [
+      "Catalysts"
+    ]
+  }
+]

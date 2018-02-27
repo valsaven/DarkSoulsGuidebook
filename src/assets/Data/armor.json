@@ -1,0 +1,46 @@
+[
+  {
+    "title": "ARMOR PIECES",
+    "items": [
+      "Head Armor",
+      "Chest Armor",
+      "Hands Armor",
+      "Legs Armor",
+      "Unique Armor"
+    ]
+  },
+  {
+    "title": "ARMOR SETS",
+    "items": [
+      "Light Armor Sets",
+      "Medium Armor Sets",
+      "Heavy Armor Sets"
+    ]
+  },
+  {
+    "title": "MODIFICATION",
+    "items": [
+      "Armor Modification"
+    ]
+  },
+  {
+    "title": "COMPARISON TOOL",
+    "items": [
+      "Custom Armor Set Comparison",
+      "Armor Piece Comparison"
+    ]
+  },
+  {
+    "title": "STARTING ARMOR SETS",
+    "items": [
+      "Brigand Set",
+      "Holy Set",
+      "Leather Set",
+      "Knight Set",
+      "Tattered Cloth Set",
+      "Sorcerer Set",
+      "Black Leather Set",
+      "Hard Leather Set"
+    ]
+  }
+]
