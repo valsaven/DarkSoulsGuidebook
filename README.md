@@ -1,23 +1,23 @@
 # Dark Souls Guidebook
-### Site
-http://darksouls.bplaced.net/
 
 ### Stack
-- React + React Router + React Hot Loader 3
-- Redux
-- Webpack 2
-- SASS
 
-### Requirements
-- Node v7.4.0
-- yarn
+* Vue + Vue-router
+* Webpack 4
 
-### Getting started
-```
-$ yarn
-$ yarn start      # for dev
-$ yarn build      # for build
+## Setup
+
+```bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
 ```
 
 ### License
+
 MIT

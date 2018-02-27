@@ -1,14 +1,17 @@
 /* Preparations */
-body, h1, p {
+body,
+h1,
+p {
   margin: 0;
   padding: 0;
 }
 
 a {
   text-decoration: none;
-  &:visited {
-    color: inherit;
-  }
+}
+
+a:visited {
+  color: inherit;
 }
 
 li {
@@ -16,7 +19,7 @@ li {
 }
 
 p {
-  text-shadow: 0 0 0.2em #fff;
+  text-shadow: 0 0 .2em #fff;
 }
 
 /* General styles */
@@ -33,7 +36,7 @@ header {
   padding: 20px;
 }
 
-.App-content {
+.main-menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -45,18 +48,20 @@ header {
 /* Main Block */
 * {
   box-sizing: border-box;
-  &:before, &:after {
-    box-sizing: border-box;
-  }
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
   background: #303030;
-  color: #FFF;
+  color: #fff;
   text-align: center;
 }
 
-.App-content {
+.main-menu {
   margin-bottom: 10px;
   padding: 10px 0;
 }
@@ -64,7 +69,7 @@ body {
 .content-item {
   background-color: #424242;
   border-radius: 4px;
-  color: #FFFFFF;
+  color: #fff;
   margin: 10px;
   padding: 8px;
   position: relative;
@@ -78,12 +83,12 @@ ul {
   text-align: left;
 }
 
-li:before {
-  color: #D5D4D4;
+li::before {
+  color: #d5d4d4;
   content: "•";
   padding-right: 10px;
 }
 
 .content-item > ul > li {
-  color: #4C93D4;
+  color: #4c93d4;
 }
