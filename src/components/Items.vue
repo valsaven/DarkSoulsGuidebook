@@ -1,17 +1,11 @@
 <template>
-  <div class="items">
-  </div>
+  <div class="items"/>
 </template>
 
-<style lang="css" scoped>
+<script lang="ts">
+import { defineComponent } from 'vue';
 
-</style>
-
-<script>
-module.exports = {
-  name: 'items',
-  data() {
-    return {};
-  },
-};
+export default defineComponent({
+  name: 'Items',
+});
 </script>

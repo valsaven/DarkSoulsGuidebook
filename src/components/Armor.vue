@@ -1,29 +1,36 @@
 <template>
   <div class="armor">
     <div class="container">
-      <div class="content-item" v-for="topItem in Armor">
-        <p>{{topItem.title}}</p>
+      <div
+        v-for="(topItem, index) in Armor"
+        :key="index"
+        class="content-item"
+      >
+        <p>{{ topItem.title }}</p>
+
         <ul>
-          <li v-for="item in topItem.items">{{item}}</li>
+          <li
+            v-for="(item, index2) in topItem.items"
+            :key="index2"
+          >
+            {{ item }}
+          </li>
         </ul>
       </div>
     </div>
   </div>
 </template>
 
-<style lang="css" scoped>
+<script lang="ts">
+import { defineComponent } from 'vue';
+import Armor from "../assets/data/armor.json";
 
-</style>
-
-<script>
-import Armor from '../assets/Data/armor.json';
-
-module.exports = {
-  name: 'armor',
+export default defineComponent({
+  name: 'Armor',
   data() {
     return {
       Armor,
     };
   },
-};
+});
 </script>

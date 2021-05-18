@@ -1,29 +1,38 @@
 <template>
-  <div class="Menu" id="menu">
+  <div
+    id="menu"
+    class="Menu"
+  >
     <div class="main-menu">
-      {{item}}
-      <router-link :to="item.alt" v-for="item in menuItems">
+      <router-link
+        v-for="(item, index) in menuItems"
+        :key="index"
+        :to="item.alt"
+      >
         <div class="content-item">
-          <img :src="item.img" :alt="item.alt"/>
-          <p>{{item.title}}</p>
+          <img
+            :src="item.img"
+            :alt="item.alt"
+          >
+          <p>{{ item.title }}</p>
         </div>
       </router-link>
     </div>
   </div>
 </template>
 
-<style src="./style.scss"></style>
-
 <script>
+import './style.css';
+
 // Images
-import Solaire from '../../assets/MenuIcons/Solaire.png';
-import Weapons from '../../assets/MenuIcons/Weapons.png';
-import Armor from '../../assets/MenuIcons/Armor.png';
-import Spells from '../../assets/MenuIcons/Spells.png';
-import Items from '../../assets/MenuIcons/Items.png';
-import Soapstone from '../../assets/MenuIcons/Soapstone.png';
-import Stats from '../../assets/MenuIcons/Stats.png';
-import Locations from '../../assets/MenuIcons/Locations.png';
+import Solaire from '../../assets/icons/menu/Solaire.png';
+import Weapons from '../../assets/icons/menu/Weapons.png';
+import Armor from '../../assets/icons/menu/Armor.png';
+import Spells from '../../assets/icons/menu/Spells.png';
+import Items from '../../assets/icons/menu/Items.png';
+import Soapstone from '../../assets/icons/menu/Soapstone.png';
+import Stats from '../../assets/icons/menu/Stats.png';
+import Locations from '../../assets/icons/menu/Locations.png';
 
 const icons = {
   Solaire,
@@ -37,7 +46,7 @@ const icons = {
 };
 
 export default {
-  name: 'app',
+  name: 'App',
   data() {
     return {
       menuItems: [
