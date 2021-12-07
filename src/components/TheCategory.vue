@@ -22,8 +22,8 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import { RouteParams } from "vue-router";
+import { defineComponent } from 'vue';
+import { RouteParams } from 'vue-router';
 
 export default defineComponent({
   name: 'TheCategory',
@@ -35,9 +35,9 @@ export default defineComponent({
   },
 
   watch: {
-    async '$route.params'(toParams: RouteParams) {
+    '$route.params': async function (toParams: RouteParams) {
       this.categoryData = await this.getCategoryData(toParams.category);
-    }
+    },
   },
 
   async created() {
@@ -57,7 +57,7 @@ export default defineComponent({
       const data = await import(`../assets/data/${category}.json`);
 
       return data.default;
-    }
+    },
   },
 });
 </script>

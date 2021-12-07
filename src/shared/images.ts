@@ -8,12 +8,12 @@ import Stats from '../assets/icons/menu/Stats.png';
 import Locations from '../assets/icons/menu/Locations.png';
 
 export const icons = {
-    Solaire,
-    Weapons,
-    Armor,
-    Spells,
-    Items,
-    Soapstone,
-    Stats,
-    Locations,
+  Solaire,
+  Weapons,
+  Armor,
+  Spells,
+  Items,
+  Soapstone,
+  Stats,
+  Locations,
 };

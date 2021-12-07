@@ -15,14 +15,14 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
-import TheMenu from "./views/TheMenu.vue";
+import TheMenu from './views/TheMenu.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
     'the-menu': TheMenu,
   },
-})
+});
 </script>
 
 <style>
