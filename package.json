@@ -1,13 +1,14 @@
 {
   "name": "dark-souls-guidebook",
   "version": "1.0.0",
+  "type": "module",
   "description": "Dark Souls Guidebook",
   "author": "Val Saven <val.saven@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview",
+    "preview": "vite preview",
     "lint": "eslint src --ext .ts,.vue",
     "lint:fix" : "eslint src --ext .ts,.vue --fix"
   },
@@ -16,15 +17,14 @@
     "vue-router": "4.0.15"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "2.3.3",
-    "@vue/compiler-sfc": "3.2.37",
+    "@vitejs/plugin-vue": "3.0.3",
     "@vue/eslint-config-typescript": "^10.0.0",
     "eslint": "^8.17.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-vue": "^9.1.0",
     "typescript": "4.7.3",
-    "vite": "2.9.10",
-    "vue-tsc": "0.37.3"
+    "vite": "3.0.7",
+    "vue-tsc": "0.39.5"
   }
 }
