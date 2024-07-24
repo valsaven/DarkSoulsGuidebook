@@ -1,18 +1,35 @@
 # Dark Souls Guidebook
 
-## Setup
+## Project Setup
 
-```bash
-# install dependencies
+```sh
 npm i
+```
 
-# serve with hot reload at localhost:3000
+### Compile and Hot-Reload for Development
+
+```sh
 npm run dev
+```
 
-# build for production with minification
+### Type-Check, Compile and Minify for Production
+
+```sh
 npm run build
 ```
 
-### License
+### Lint Files
+
+```sh
+npm run lint
+```
+
+### Lint and Fix Files
+
+```sh
+npm run lint:fix
+```
+
+## License
 
 MIT

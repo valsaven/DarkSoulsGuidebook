@@ -1,34 +1,19 @@
 [
   {
     "title": "ARMOR PIECES",
-    "items": [
-      "Head Armor",
-      "Chest Armor",
-      "Hands Armor",
-      "Legs Armor",
-      "Unique Armor"
-    ]
+    "items": ["Head Armor", "Chest Armor", "Hands Armor", "Legs Armor", "Unique Armor"]
   },
   {
     "title": "ARMOR SETS",
-    "items": [
-      "Light Armor Sets",
-      "Medium Armor Sets",
-      "Heavy Armor Sets"
-    ]
+    "items": ["Light Armor Sets", "Medium Armor Sets", "Heavy Armor Sets"]
   },
   {
     "title": "MODIFICATION",
-    "items": [
-      "Armor Modification"
-    ]
+    "items": ["Armor Modification"]
   },
   {
     "title": "COMPARISON TOOL",
-    "items": [
-      "Custom Armor Set Comparison",
-      "Armor Piece Comparison"
-    ]
+    "items": ["Custom Armor Set Comparison", "Armor Piece Comparison"]
   },
   {
     "title": "STARTING ARMOR SETS",

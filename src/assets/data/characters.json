@@ -1,12 +1,7 @@
 [
   {
     "title": "BLACKSMITHS",
-    "items": [
-      "Andre of Astora",
-      "Giant Blacksmith",
-      "Rickert of Vinheim",
-      "Vamos"
-    ]
+    "items": ["Andre of Astora", "Giant Blacksmith", "Rickert of Vinheim", "Vamos"]
   },
   {
     "title": "MERCHANTS",

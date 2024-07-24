@@ -22,22 +22,14 @@
   },
   {
     "title": "SELF AUGMENTING",
-    "items": [
-      "Flash Sweat",
-      "Iron Flesh",
-      "Power Within"
-    ]
+    "items": ["Flash Sweat", "Iron Flesh", "Power Within"]
   },
   {
     "title": "OTHER",
-    "items": [
-      "Undead Rapport"
-    ]
+    "items": ["Undead Rapport"]
   },
   {
     "title": "CASTING INSTRUMENTS",
-    "items": [
-      "Pyromancy Flame"
-    ]
+    "items": ["Pyromancy Flame"]
   }
 ]

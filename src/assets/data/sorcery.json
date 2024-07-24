@@ -1,21 +1,11 @@
 [
   {
     "title": "SELF AUGMENTING",
-    "items": [
-      "Chameleon",
-      "Fall Control",
-      "Hidden Body",
-      "Hush"
-    ]
+    "items": ["Chameleon", "Fall Control", "Hidden Body", "Hush"]
   },
   {
     "title": "WEAPON AUGMENTING",
-    "items": [
-      "Magic Weapon",
-      "Great Magic Weapon",
-      "Crystal Magic Weapon",
-      "Magic Shield"
-    ]
+    "items": ["Magic Weapon", "Great Magic Weapon", "Crystal Magic Weapon", "Magic Shield"]
   },
   {
     "title": "OFFENSIVE",
@@ -39,23 +29,14 @@
   },
   {
     "title": "RESTORATIVE",
-    "items": [
-      "Remedy",
-      "Repair",
-      "Resist Curse"
-    ]
+    "items": ["Remedy", "Repair", "Resist Curse"]
   },
   {
     "title": "OTHER",
-    "items": [
-      "Aural Decoy",
-      "Cast Light"
-    ]
+    "items": ["Aural Decoy", "Cast Light"]
   },
   {
     "title": "CASTING INSTRUMENTS",
-    "items": [
-      "Catalysts"
-    ]
+    "items": ["Catalysts"]
   }
 ]

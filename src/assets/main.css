@@ -1,0 +1,30 @@
+@import './base.css';
+
+#app {
+  color: #2c3e50;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+.header {
+  background-color: #212121;
+  color: white;
+  padding: 20px;
+}
+
+.content-item {
+  background-color: #424242;
+  border-radius: 4px;
+  color: #fff;
+  margin: 10px;
+  padding: 8px;
+  position: relative;
+  text-align: center;
+}
+
+.glow {
+  text-shadow: 0 0 .2rem #fff;
+}

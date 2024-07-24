@@ -1,19 +1,11 @@
 [
   {
     "title": "SELF AUGMENTING",
-    "items": [
-      "Magic Barrier",
-      "Great Magic Barrier",
-      "Replenishment",
-      "Bountiful Sunlight"
-    ]
+    "items": ["Magic Barrier", "Great Magic Barrier", "Replenishment", "Bountiful Sunlight"]
   },
   {
     "title": "WEAPON AUGMENTING",
-    "items": [
-      "Darkmoon Blade",
-      "Sunlight Blade"
-    ]
+    "items": ["Darkmoon Blade", "Sunlight Blade"]
   },
   {
     "title": "OFFENSIVE",
@@ -30,30 +22,14 @@
   },
   {
     "title": "RESTORATIVE",
-    "items": [
-      "Heal",
-      "Great Heal Excerpt",
-      "Great Heal",
-      "Soothing Sunlight",
-      "Replenishment",
-      "Bountiful Sunlight"
-    ]
+    "items": ["Heal", "Great Heal Excerpt", "Great Heal", "Soothing Sunlight", "Replenishment", "Bountiful Sunlight"]
   },
   {
     "title": "OTHER",
-    "items": [
-      "Escape Death",
-      "Homeward",
-      "Karmic Justice",
-      "Seek Guidance",
-      "Tranquil Walk of Peace",
-      "Vow of Silence"
-    ]
+    "items": ["Escape Death", "Homeward", "Karmic Justice", "Seek Guidance", "Tranquil Walk of Peace", "Vow of Silence"]
   },
   {
     "title": "CASTING INSTRUMENTS",
-    "items": [
-      "Talismans"
-    ]
+    "items": ["Talismans"]
   }
 ]

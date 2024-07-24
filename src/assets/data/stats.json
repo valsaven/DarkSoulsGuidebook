@@ -1,25 +1,11 @@
 [
   {
     "title": "BASE STATS",
-    "items": [
-      "Vitality",
-      "Attunement",
-      "Endurance",
-      "Strength",
-      "Dexterity",
-      "Resistance",
-      "Intelligence",
-      "Faith"
-    ]
+    "items": ["Vitality", "Attunement", "Endurance", "Strength", "Dexterity", "Resistance", "Intelligence", "Faith"]
   },
   {
     "title": "DERIVED STATS",
-    "items": [
-      "Health",
-      "Stamina",
-      "Equip",
-      "Load"
-    ]
+    "items": ["Health", "Stamina", "Equip", "Load"]
   },
   {
     "title": "DEFENSE STATS",
@@ -47,25 +33,10 @@
   },
   {
     "title": "ATTACK STATS",
-    "items": [
-      "Physical",
-      "Damage",
-      "Magic",
-      "Damage",
-      "Fire",
-      "Damage",
-      "Lightning",
-      "Damage",
-      "Parameter",
-      "Bonus"
-    ]
+    "items": ["Physical", "Damage", "Magic", "Damage", "Fire", "Damage", "Lightning", "Damage", "Parameter", "Bonus"]
   },
   {
     "title": "LEVELING UP",
-    "items": [
-      "Level",
-      "Up",
-      "Souls"
-    ]
+    "items": ["Level", "Up", "Souls"]
   }
 ]

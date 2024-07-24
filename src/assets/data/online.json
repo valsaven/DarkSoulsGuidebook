@@ -1,39 +1,19 @@
 [
   {
     "title": "GAMEPLAY",
-    "items": [
-      "Battle of Stoicism",
-      "Cooperative Gameplay",
-      "Covenant",
-      "Invaders",
-      "Phantoms",
-      "Player versus Player"
-    ]
+    "items": ["Battle of Stoicism", "Cooperative Gameplay", "Covenant", "Invaders", "Phantoms", "Player versus Player"]
   },
   {
     "title": "MECHANICS",
-    "items": [
-      "Miracle Synergy",
-      "Resonance Ring",
-      "Sin"
-    ]
+    "items": ["Miracle Synergy", "Resonance Ring", "Sin"]
   },
   {
     "title": "INVASION ITEMS",
-    "items": [
-      "Cracked Red Eye Orb",
-      "Red Eye Orb",
-      "Blue Eye Orb",
-      "Dragon Eye",
-      "Eye of Death",
-      "Red Sign Soapstone"
-    ]
+    "items": ["Cracked Red Eye Orb", "Red Eye Orb", "Blue Eye Orb", "Dragon Eye", "Eye of Death", "Red Sign Soapstone"]
   },
   {
     "title": "SUMMONING ITEMS",
-    "items": [
-      "White Sign Soapstone"
-    ]
+    "items": ["White Sign Soapstone"]
   },
   {
     "title": "OTHER ITEMS",

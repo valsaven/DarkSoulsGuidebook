@@ -1,38 +1,23 @@
 [
   {
     "title": "AMMUNITION",
-    "items": [
-      "Arrows",
-      "Bolts"
-    ]
+    "items": ["Arrows", "Bolts"]
   },
   {
     "title": "KEY ITEMS",
-    "items": [
-      "Key Items",
-      "Embers"
-    ]
+    "items": ["Key Items", "Embers"]
   },
   {
     "title": "MISC. ITEMS",
-    "items": [
-      "Offensive Items",
-      "Restorative Items",
-      "Souls",
-      "Online Play Items"
-    ]
+    "items": ["Offensive Items", "Restorative Items", "Souls", "Online Play Items"]
   },
   {
     "title": "RINGS",
-    "items": [
-      "Rings"
-    ]
+    "items": ["Rings"]
   },
   {
     "title": "UPGRADE MATERIALS",
-    "items": [
-      "Upgrade Materials"
-    ]
+    "items": ["Upgrade Materials"]
   },
   {
     "title": "STARTING GIFTS",

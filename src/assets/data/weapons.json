@@ -1,31 +1,19 @@
 [
   {
     "title": "AXES",
-    "items": [
-      "Axes",
-      "Greataxes"
-    ]
+    "items": ["Axes", "Greataxes"]
   },
   {
     "title": "HAMMERS",
-    "items": [
-      "Hammers",
-      "Great Hammers"
-    ]
+    "items": ["Hammers", "Great Hammers"]
   },
   {
     "title": "POLEARMS",
-    "items": [
-      "Spears",
-      "Halberds"
-    ]
+    "items": ["Spears", "Halberds"]
   },
   {
     "title": "RANGED",
-    "items": [
-      "Bows",
-      "Crossbows"
-    ]
+    "items": ["Bows", "Crossbows"]
   },
   {
     "title": "SWORDS",
@@ -41,34 +29,19 @@
   },
   {
     "title": "OTHER MELEE",
-    "items": [
-      " Daggers",
-      "Gauntlets",
-      "Whips",
-      "Skull Lantern"
-    ]
+    "items": [" Daggers", "Gauntlets", "Whips", "Skull Lantern"]
   },
   {
     "title": "CASTING INSTRUMENTS",
-    "items": [
-      "Catalysts",
-      "Talismans",
-      "Pyromancy Flame"
-    ]
+    "items": ["Catalysts", "Talismans", "Pyromancy Flame"]
   },
   {
     "title": "SHIELDS",
-    "items": [
-      "Small Shields",
-      "Medium Shields",
-      "Greatshields"
-    ]
+    "items": ["Small Shields", "Medium Shields", "Greatshields"]
   },
   {
     "title": "MODIFICATION",
-    "items": [
-      "Weapon Modification"
-    ]
+    "items": ["Weapon Modification"]
   },
   {
     "title": "UPGRADE PATHS",
