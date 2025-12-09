@@ -52,7 +52,9 @@ const getCategoryData = async (category: string | string[]) => {
 watch(
   () => route.params.category,
   async (newCategory) => {
-    categoryData.value = await getCategoryData(newCategory);
+    if (newCategory) {
+      categoryData.value = await getCategoryData(newCategory);
+    }
   },
   { immediate: true },
 );

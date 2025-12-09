@@ -31,7 +31,7 @@ const router = createRouter({
   routes,
 });
 
-router.beforeEach((to, from, next) => {
+router.beforeEach((to, _from, next) => {
   const isHomePage = to.path === '/';
   const category = to.params.category
     ? Array.isArray(to.params.category)

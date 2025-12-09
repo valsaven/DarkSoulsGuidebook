@@ -22,7 +22,7 @@
 </template>
 
 <script setup lang="ts">
-import { icons } from '@/images';
+import { icons } from '../images';
 import { ref } from 'vue';
 
 const menuItems = ref([
