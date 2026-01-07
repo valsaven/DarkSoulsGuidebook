@@ -1,6 +1,6 @@
 {
   "name": "dark-souls-guidebook",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "module",
   "description": "Dark Souls Guidebook",
   "author": "Val Saven <val.saven@gmail.com>",
@@ -12,19 +12,19 @@
   },
   "dependencies": {
     "modern-normalize": "^3.0.1",
-    "vue": "^3.5.25",
-    "vue-router": "^4.6.3"
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "@types/node": "^24.10.1",
-    "@vitejs/plugin-vue": "^6.0.1",
+    "@types/node": "^25.0.3",
+    "@vitejs/plugin-vue": "^6.0.3",
     "@vue/tsconfig": "^0.8.1",
     "typescript": "~5.9.3",
-    "vite": "npm:rolldown-vite@7.2.5",
+    "vite": "npm:rolldown-vite@7.3.0",
     "vite-plugin-vue-devtools": "^8.0.5",
-    "vue-tsc": "^3.1.4"
+    "vue-tsc": "^3.2.2"
   },
   "overrides": {
-    "vite": "npm:rolldown-vite@7.2.5"
+    "vite": "npm:rolldown-vite@7.3.0"
   }
 }
